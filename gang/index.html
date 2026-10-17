@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inbjudan – Vanetrappa</title>
+  <meta name="description" content="Du är inbjuden att trappa ner tillsammans i Vanetrappa.">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; connect-src https://*.supabase.co; img-src 'self' data:; style-src 'self' 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <meta property="og:title" content="Följ mig på Vanetrappa">
+  <meta property="og:description" content="Vi trappar ner tillsammans och hejar på varandra i appen.">
+  <meta property="og:image" content="https://roro-680.github.io/vanetrappa/og-image.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main>
+  <header class="site">
+    <a href="../"><img src="../icon.png" alt=""></a>
+    <a href="../">Vanetrappa</a>
+  </header>
+
+  <section class="hero">
+    <div id="emoji" style="font-size:64px">🪜</div>
+    <h1 id="title">Du är inbjuden till Vanetrappa</h1>
+    <p class="lead" id="sub">Trappa ner tillsammans: veckans topplista, gemensamma utmaningar och hejarop.</p>
+  </section>
+
+  <div class="card">
+    <p class="notice" style="text-align:center;margin:0">Din kod</p>
+    <p class="code" id="code">—</p>
+    <a class="btn" id="open-app" href="#">Öppna i appen</a>
+    <a class="btn secondary" id="get-app" href="../">Skaffa appen</a>
+  </div>
+
+  <div class="card soft">
+    <h3>Så går du med</h3>
+    <ol>
+      <li>Skaffa Vanetrappa och kom igång med din plan.</li>
+      <li>Tryck på <strong>Öppna i appen</strong> ovan – eller gå till fliken <strong>Vänner</strong>, välj <strong>Ange kod</strong> och skriv in koden.</li>
+    </ol>
+    <p>Vänner ser din nivå, din svit och dina prestationer – aldrig hur mycket du använder.</p>
+  </div>
+
+  <p class="notice" id="status"></p>
+
+  <footer>
+    © 2026 Vanetrappa · <a href="../integritet/">Integritetspolicy</a> · <a href="../support/">Support</a>
+  </footer>
+</main>
+
+<script src="../config.js"></script>
+<script src="../vendor/supabase-2.117.3.js"></script>
+<script src="../social.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
